@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculllll</title>
+    <style>
+        .all 
+        {
+            justify-content: center;
+        }
+        .calcul{
+            display: grid;
+            grid-template-columns: repeat(4,40px);
+            justify-content: center;
+        }
+        .get_input{
+            width: 150px;
+            justify-content: center;
+            height: 50PX;
+            width: 200px;
+            font-size: 50px;
+        }
+        .equal_to{
+            width: 120px;
+        }
+        button{
+            width: 50px;
+            height: 30px;
+            border-radius: 15px;
+            margin: 10px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="all">
+        <input type="text" placeholder="0" id="get_input">
+        <div class="calcul">
+            <button onclick="clear()">
+                CL
+            </button>
+            <button onclick="del()">DeL</button>
+             <button onclick="display('1')">
+                1
+            </button>
+            <button onclick="display('2')">
+                2
+            </button>
+            <button onclick="display('3')">
+                3
+            </button>
+            <button onclick="display('4')">
+                4
+            </button >
+            <button onclick="display('5')">
+                5
+            </button>
+            <button onclick="display('6')">
+                6
+            </button>
+            <button onclick="display('7')">
+                7
+            </button>
+            <button onclick="display('8')">
+                8
+            </button>
+            <button onclick="display('9')">
+                9
+            </button>
+            <button onclick="display('0')">
+                0
+            </button>
+            <button onclick="display('*')">
+                *
+            </button>
+            <button onclick="display('/')">
+                /
+            </button>
+            <button onclick="display('+')">
+                +
+            </button>
+            <button onclick="display('-')">
+                -
+            </button>
+            <button onclick="display('%')">
+                %
+            </button>
+            <button onclick="compute_res()" class="equal_to">
+                =
+            </button>
+        </div>
+    </div>
+    <script>
+        
+    </script>
+</body>
+</html>
